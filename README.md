@@ -36,6 +36,17 @@ Data Architecture -Every product collects some data that is stored inside a data
 ## Near Vision
   We will be working towards having a poratl that is connected to the database which shows the up-to-date personal healthcare records (PHR) including medications, lab results,     diagnoses, care plans, immunization histories, and more.
   
+## Product Backlogs
+  
+  <table>
+  <tr>
+    <th>XYZ</th>
+  </tr>
+  <tr>
+    <td>Database creation</td>
+  </tr>
+  </table>
+  
 ## User Stories
   
 <table>
