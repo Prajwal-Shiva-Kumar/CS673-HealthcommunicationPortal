@@ -19,7 +19,10 @@ Patients love your free portal- it lets them conveniently and securely communica
 [HealthcommunicationPortal](https://github.com/ManjushreeRao/CS673-HealthcommunicationPortal)
 
 ## About The Project
-Data Architecture -Every product collects some data that is stored inside a database in the form of facts and dimensions and also involves transactional data of day to day life. In this product, we are mainly concentrating in the data collected by the hospital and the patients who cannot arrive at the hospital and portray a user friendly portal that describes the medical ailment involved and their daily health proceedings with correct medicines as suggested by the Doctor in the prescription. Everything is stored in Heroku cloud and the data will be fetched using PostgreSQL. 
+
+UI/UX -  
+ 
+Data Architecture - Every product collects some data that is stored inside a database in the form of facts and dimensions and also involves transactional data of day to day life. In this product, we are mainly concentrating in the data collected by the hospital and the patients who cannot arrive at the hospital and portray a user friendly portal that describes the medical ailment involved and their daily health proceedings with correct medicines as suggested by the Doctor in the prescription. Everything is stored in Heroku cloud and the data will be fetched using PostgreSQL. 
 
 ## Far Vision 
   Our goal is make sure we meet the following requirements for the client:
@@ -34,19 +37,18 @@ Data Architecture -Every product collects some data that is stored inside a data
   An invitation email with instructions to your patients is automatically sent out.
 
 ## Near Vision
-  We will be working towards having a poratl that is connected to the database which shows the up-to-date personal healthcare records (PHR) including medications, lab results,     diagnoses, care plans, immunization histories, and more.
+  We will be working towards having a portal that is connected to the database which shows the up-to-date personal healthcare records (PHR) including medications, lab results,     diagnoses, care plans, immunization histories, and more.
   
 ## Product Backlogs
   
-  1. Database creation
-  2. User interface
-  3. Table schema
-  4. Data insertion
-  5. Login Page
-  6. Personal healthcare records (PHR)
-  7. Appointment details
-  8. Medicine availability
-  9. System intergration
+  1. User interface
+  2. Table schema
+  3. Data insertion
+  4. Login Page
+  5. Personal healthcare records (PHR)
+  6. Appointment details
+  7. Medicine availability
+  8. System intergration
   
   
 ## User Stories
@@ -98,6 +100,4 @@ Data Architecture -Every product collects some data that is stored inside a data
   1. Access to healthcare records
   2. Access to doctor information based on the specilization.
   3. Access to medicine availability.
-  
-  
-
+ 
