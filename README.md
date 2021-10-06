@@ -36,56 +36,46 @@ Data Architecture -Every product collects some data that is stored inside a data
 ## Near Vision
   We will be working towards having a poratl that is connected to the database which shows the up-to-date personal healthcare records (PHR) including medications, lab results,     diagnoses, care plans, immunization histories, and more.
   
-## Product Backlogs
+## User Stories
   
 <table>
   <tr>
-    <th>Product Backlog</th>
     <th>User Story#</th>
     <th>User story</th>
   </tr>
   <tr>
-    <td>Database creation</td>
     <td>1</td>
     <td>Setting up the Heroku database.</td>
   </tr>
   <tr>
-    <td>User interface</td>
     <td>2</td>
     <td>Creating a UI/UX framework and design for user friendly portal.</td>
   </tr>
     <tr>
-    <td>Table schema</td>
     <td>3</td>
     <td>Creating schema of facts and dimensions table.</td>
   </tr>
     <tr>
-    <td>Data insertion</td>
     <td>4</td>
     <td>Inserting sample data into the tables.</td>
   </tr>
      <tr>
-    <td>Login Page</td>
     <td>5</td>
     <td>Creating a login page for the patients</td>
   </tr> 
    <tr>
-    <td>Personal healthcare records (PHR)</td>
     <td>6</td>
     <td>Displaying the personal healthcare records (PHR).</td>
   </tr>
    <tr>
-    <td>Appointment details</td>
     <td>7</td>
     <td>Displaying appoinment details on the portal.</td>
   </tr>  
    <tr>
-    <td>Medicine availability</td>
     <td>8</td>
     <td>Displaying the medicine available.</td>
   </tr>
      <tr>
-    <td>System intergration</td>
     <td>9</td>
     <td>Integration between database and UI/UX design for the portal.</td>
   </tr>
