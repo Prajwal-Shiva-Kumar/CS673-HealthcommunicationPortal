@@ -38,14 +38,16 @@ Data Architecture -Every product collects some data that is stored inside a data
   
 ## Product Backlogs
   
-  <table>
-  <tr>
-    <th>XYZ</th>
-  </tr>
-  <tr>
-    <td>Database creation</td>
-  </tr>
-  </table>
+  1. Database creation
+  2. User interface
+  3. Table schema
+  4. Data insertion
+  5. Login Page
+  6. Personal healthcare records (PHR)
+  7. Appointment details
+  8. Medicine availability
+  9. System intergration
+  
   
 ## User Stories
   
