@@ -24,7 +24,7 @@ Patients love your free portal- it lets them conveniently and securely communica
 
 ## About The Project
 
-UI/UX -  
+UI/UX - This product is mainly concentrating on User Interface of the patient communication portal, which user can login and check the dashboard with lot of information like appointment scheduler, account summary, personal health records, demographic information, message center and lab reports making it easier for the patient to access everything online. This is to help patients to access and check in to the clinic digitally and to help people who cannot visit the clinic physically. 
  
 Data Architecture - Every product collects some data that is stored inside a database in the form of facts and dimensions and also involves transactional data of day to day life. In this product, we are mainly concentrating in the data collected by the hospital and the patients who cannot arrive at the hospital and portray a user friendly portal that describes the medical ailment involved and their daily health proceedings with correct medicines as suggested by the Doctor in the prescription. Everything is stored in Heroku cloud and the data will be fetched using PostgreSQL. 
 
