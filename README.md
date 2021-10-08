@@ -47,7 +47,7 @@ Data Architecture - Every product collects some data that is stored inside a dat
   
 <table>
   <tr>
-    <th>>User Story</th>
+    <th>User Story</th>
     <th>Additional Details</th>
     <th>Story Points</th>
   </tr>
