@@ -98,9 +98,14 @@ Data Architecture - Every product collects some data that is stored inside a dat
     <th>Externak</th>
   </tr>
   <tr>
-    <td>Practice management (HR), Doctors, Nurses, Front office (Intake, Appointment), Backoffice (Billing)
+    <td>Practice management (HR), 
+      Doctors, 
+      Nurses, 
+      Front office (Intake, Appointment), 
+      Backoffice (Billing)
 </td>
-    <td>Patients, Insurance Company</td>
+    <td>Patients, 
+      Insurance Company</td>
   </tr>
   </table>
  
