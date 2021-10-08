@@ -53,41 +53,50 @@ Data Architecture - Every product collects some data that is stored inside a dat
     <th>Story Points</th>
   </tr>
   <tr>
-    <td>1</td>
-    <td>Setting up the Heroku database.</td>
+    <td>User Interface - Login Page</td>
+    <td>As a patient I would want to be able to login to my own personal account and check details</td>
+	<td>3</td>
   </tr>
   <tr>
-    <td>2</td>
-    <td>Creating a UI/UX framework and design for user friendly portal.</td>
+    <td>User Interface - Personal Health Records</td>
+    <td>As a patient, I would want to be able to access my lab results</td>
+	<td>3</td>
   </tr>
     <tr>
-    <td>3</td>
-    <td>Creating schema of facts and dimensions table.</td>
+    <td>User Interface - Appointment Scheduler</td>
+    <td>As a patient, I would like to schedule appoinments with Doctor online</td>
+	<td>3</td>
   </tr>
-    <tr>
-    <td>4</td>
-    <td>Inserting sample data into the tables.</td>
+    <tr>	
+    <td>User Interface - Demographics</td>
+    <td>As a patient, I would like to access my Demographic information</td>
+	<td>3</td>
   </tr>
      <tr>
-    <td>5</td>
-    <td>Creating a login page for the patients</td>
+    <td>User Interface - Message Center</td>
+    <td>As a patient, I would like to check my emails from the clinic for any updates and speak to receptionist</td>
+	<td>6</td>
   </tr> 
    <tr>
-    <td>6</td>
-    <td>Displaying the personal healthcare records (PHR).</td>
+   <td>User Interface - Reminders</td>
+    <td>As a patient, I would like to be reminded me of my future appoinments</td>
+	<td>6</td>
   </tr>
    <tr>
-    <td>7</td>
-    <td>Displaying appoinment details on the portal.</td>
+    <td>User Interface - Personal Health Records</td>
+    <td>As a patient, I would want to be able to access my diagnoised reports and prescriptions</td>
+	<td>3</td>
   </tr>  
    <tr>
-    <td>8</td>
-    <td>Displaying the medicine available.</td>
+    <td>User Interface - Refills</td>
+    <td>As a patient, I would want to check my refill status of my medicines</td>
+	<td>3</td>
   </tr>
-     <tr>
-    <td>9</td>
-    <td>Integration between database and UI/UX design for the portal.</td>
-  </tr>
+   <tr>
+	<td>User Interface - Logout</td>
+    <td>As a patient, I would want to be able to log out of my account</td>
+	<td>3</td>	
+   </tr>
 </table>
   
 ## Stake holder types
