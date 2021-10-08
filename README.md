@@ -42,25 +42,15 @@ Data Architecture - Every product collects some data that is stored inside a dat
 
 ## Near Vision
   We will be working towards having a portal that is connected to the database which shows the up-to-date personal healthcare records (PHR) including medications, lab results,     diagnoses, care plans, immunization histories, and more.
-  
-## Product Backlogs
-  
-  1. User interface
-  2. Table schema
-  3. Data insertion
-  4. Login Page
-  5. Personal healthcare records (PHR)
-  6. Appointment details
-  7. Medicine availability
-  8. System intergration
-  
-  
-## User Stories
+    
+## Definition of Ready
   
 <table>
   <tr>
-    <th>User Story#</th>
-    <th>User story</th>
+    <th>Title</th>
+    <th>User Story</th>
+    <th>Additional Details</th>
+    <th>Story Points</th>
   </tr>
   <tr>
     <td>1</td>
