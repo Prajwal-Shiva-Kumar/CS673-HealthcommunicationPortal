@@ -95,7 +95,7 @@ Data Architecture - Every product collects some data that is stored inside a dat
 <table>
   <tr>
     <th>Internal</th>
-    <th>Externak</th>
+    <th>External</th>
   </tr>
   <tr>
     <td>Practice management (HR), 
