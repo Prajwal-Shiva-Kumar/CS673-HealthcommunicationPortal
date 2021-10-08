@@ -91,7 +91,16 @@ Data Architecture - Every product collects some data that is stored inside a dat
 </table>
   
 ## Stake holder types
-  1. Access to healthcare records
-  2. Access to doctor information based on the specilization.
-  3. Access to medicine availability.
+
+<table>
+  <tr>
+    <th>Internal</th>
+    <th>Externak</th>
+  </tr>
+  <tr>
+    <td>Practice management (HR), Doctors, Nurses, Front office (Intake, Appointment), Backoffice (Billing)
+</td>
+    <td>Patients, Insurance Company</td>
+  </tr>
+  </table>
  
