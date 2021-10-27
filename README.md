@@ -17,9 +17,16 @@ Patients love your free portal- it lets them conveniently and securely communica
 
 ## GIT Repository Link
 [HealthcommunicationPortal](https://github.com/ManjushreeRao/CS673-HealthcommunicationPortal)
+  
+## Pivotal Tracker 
+[Product Backlog](https://www.pivotaltracker.com/n/projects/2534904)
+  
 
 ## About The Project
-Data Architecture -Every product collects some data that is stored inside a database in the form of facts and dimensions and also involves transactional data of day to day life. In this product, we are mainly concentrating in the data collected by the hospital and the patients who cannot arrive at the hospital and portray a user friendly portal that describes the medical ailment involved and their daily health proceedings with correct medicines as suggested by the Doctor in the prescription. Everything is stored in Heroku cloud and the data will be fetched using PostgreSQL. 
+
+UI/UX - This product is mainly concentrating on User Interface of the patient communication portal, which user can login and check the dashboard with lot of information like appointment scheduler, account summary, personal health records, demographic information, message center and lab reports making it easier for the patient to access everything online. This is to help patients to access and check in to the clinic digitally and to help people who cannot visit the clinic physically. 
+ 
+Data Architecture - Every product collects some data that is stored inside a database in the form of facts and dimensions and also involves transactional data of day to day life. In this product, we are mainly concentrating in the data collected by the hospital and the patients who cannot arrive at the hospital and portray a user friendly portal that describes the medical ailment involved and their daily health proceedings with correct medicines as suggested by the Doctor in the prescription. Everything is stored in Heroku cloud and the data will be fetched using PostgreSQL. 
 
 ## Far Vision 
   Our goal is make sure we meet the following requirements for the client:
@@ -34,67 +41,79 @@ Data Architecture -Every product collects some data that is stored inside a data
   An invitation email with instructions to your patients is automatically sent out.
 
 ## Near Vision
-  We will be working towards having a poratl that is connected to the database which shows the up-to-date personal healthcare records (PHR) including medications, lab results,     diagnoses, care plans, immunization histories, and more.
-  
-## Product Backlogs
+  We will be working towards having a portal that is connected to the database which shows the up-to-date personal healthcare records (PHR) including medications, lab results,     diagnoses, care plans, immunization histories, and more.
+    
+## Definition of Ready
   
 <table>
   <tr>
-    <th>Product Backlog</th>
-    <th>User Story#</th>
-    <th>User story</th>
+    <th>User Story</th>
+    <th>Additional Details</th>
+    <th>Story Points</th>
   </tr>
   <tr>
-    <td>Database creation</td>
-    <td>1</td>
-    <td>Setting up the Heroku database.</td>
+    <td>User Interface - Login Page</td>
+    <td>As a patient I would want to be able to login to my own personal account and check details</td>
+	<td>3</td>
   </tr>
   <tr>
-    <td>User interface</td>
-    <td>2</td>
-    <td>Creating a UI/UX framework and design for user friendly portal.</td>
+    <td>User Interface - Personal Health Records</td>
+    <td>As a patient, I would want to be able to access my lab results</td>
+	<td>3</td>
   </tr>
     <tr>
-    <td>Table schema</td>
-    <td>3</td>
-    <td>Creating schema of facts and dimensions table.</td>
+    <td>User Interface - Appointment Scheduler</td>
+    <td>As a patient, I would like to schedule appoinments with Doctor online</td>
+	<td>3</td>
   </tr>
-    <tr>
-    <td>Data insertion</td>
-    <td>4</td>
-    <td>Inserting sample data into the tables.</td>
+    <tr>	
+    <td>User Interface - Demographics</td>
+    <td>As a patient, I would like to access my Demographic information</td>
+	<td>3</td>
   </tr>
      <tr>
-    <td>Login Page</td>
-    <td>5</td>
-    <td>Creating a login page for the patients</td>
+    <td>User Interface - Message Center</td>
+    <td>As a patient, I would like to check my emails from the clinic for any updates and speak to receptionist</td>
+	<td>6</td>
   </tr> 
    <tr>
-    <td>Personal healthcare records (PHR)</td>
-    <td>6</td>
-    <td>Displaying the personal healthcare records (PHR).</td>
+   <td>User Interface - Reminders</td>
+    <td>As a patient, I would like to be reminded me of my future appoinments</td>
+	<td>6</td>
   </tr>
    <tr>
-    <td>Appointment details</td>
-    <td>7</td>
-    <td>Displaying appoinment details on the portal.</td>
+    <td>User Interface - Personal Health Records</td>
+    <td>As a patient, I would want to be able to access my diagnoised reports and prescriptions</td>
+	<td>3</td>
   </tr>  
    <tr>
-    <td>Medicine availability</td>
-    <td>8</td>
-    <td>Displaying the medicine available.</td>
+    <td>User Interface - Refills</td>
+    <td>As a patient, I would want to check my refill status of my medicines</td>
+	<td>3</td>
   </tr>
-     <tr>
-    <td>System intergration</td>
-    <td>9</td>
-    <td>Integration between database and UI/UX design for the portal.</td>
-  </tr>
+   <tr>
+	<td>User Interface - Logout</td>
+    <td>As a patient, I would want to be able to log out of my account</td>
+	<td>3</td>	
+   </tr>
 </table>
   
 ## Stake holder types
-  1. Access to healthcare records
-  2. Access to doctor information based on the specilization.
-  3. Access to medicine availability.
-  
-  
 
+<table>
+  <tr>
+    <th>Internal</th>
+    <th>External</th>
+  </tr>
+  <tr>
+    <td>Practice management (HR), 
+      Doctors, 
+      Nurses, 
+      Front office (Intake, Appointment), 
+      Backoffice (Billing)
+</td>
+    <td>Patients, 
+      Insurance Company</td>
+  </tr>
+  </table>
+ 
